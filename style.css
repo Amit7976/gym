@@ -1,0 +1,51 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.slider-area {
+    margin-top: -1px;
+    background-image: url(img/hero/h1_hero.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero__caption span{
+  font-size: 70px;
+  display: block;
+  color: #2c234d;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-text-stroke: 1px #f6f7f8;
+  -webkit-text-fill-color: transparent;
+}
+.hero__caption h1{
+  font-size: 120px;
+  display: block;
+  color: #2c234d;
+  font-weight: 400;
+  font-family: fantasy;
+  letter-spacing: 6px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+}
+.section-tittle h2 {
+  font-size: 140px;
+  display: block;
+  color: #2c234d;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-text-stroke: 1px #f6f7f8;
+  -webkit-text-fill-color: transparent;
+}
